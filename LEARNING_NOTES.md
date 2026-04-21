@@ -309,7 +309,7 @@ Debido a múltiples cambios:
     - todof
     - todof2
 
-📌 Observación:
+Observación:
 
 - El test todof que incialmente fue fallido, al correrlo de nuevo pasó
 - Posible inconsistencia o cambio en ejecución
