@@ -30,16 +30,22 @@ The application under test is the public **TodoMVC demo app**, which provides a 
 
 ## Project Structure
 qa-playwright-project/
-    tests/ # Test cases
-        todo.spec.ts
-    .gitignore
-    package-lock.json
-    package.json
-    playwright.config.ts # Test configuration
-    
-    TEST_PLAN.md # Formal test plan
-    LEARNING_NOTES.md # Debugging process & insights
-    README.md # Project documentation
+│
+├── tests/ # Test cases
+│ └── todo.spec.ts
+│ └── todo2.spec.ts
+│ └── todo3.spec.ts
+│ └── todof.spec.ts
+│ └── todof2.spec.ts
+│
+├── playwright.config.ts # Test configuration
+├── package-lock.json
+├── package.json
+├── .gitignore
+│
+├── TEST_PLAN.md # Formal test plan
+├── LEARNING_NOTES.md # Debugging process & insights
+└── README.md # Project documentation
 
 ---
 
