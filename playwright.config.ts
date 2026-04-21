@@ -4,7 +4,7 @@ export default defineConfig({
     testDir: './tests',
     use: {
         headless: true,
-        baseURL: 'http://localhost:3000',
+        baseURL: 'https://demo.playwright.dev/todomvc',
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
     },
