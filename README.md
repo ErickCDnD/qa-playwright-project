@@ -34,17 +34,22 @@ The application under test is the public **TodoMVC demo app**, which provides a 
 ```bash
 git clone <https://github.com/ErickCDnD/qa-playwright-project>
 cd qa-playwright-project
+```
 
 ### 2. Install dependencies
+```bash
 npm install
-
+```
 ### 3. Install Playwright browsers
+```bash
 npx playwright install
-
+```
 ### 4. Run tests
+```bash
 npx playwright test
-
+```
 ### 5. View test report
+```bash
 npx playwright show-report
 ```
 
